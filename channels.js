@@ -6,9 +6,9 @@ const {
   PrivateAudience,
   RoomAudience,
   WorldAudience,
-} = require('whispermud');
+} = require('whispermud-core');
 
-const { Channel } = require('whispermud').Channel;
+const { Channel } = require('whispermud-core').Channel;
 
 module.exports = [
   new Channel({
