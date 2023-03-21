@@ -6,9 +6,9 @@ const {
   PrivateAudience,
   RoomAudience,
   WorldAudience,
-} = require('ranvier');
+} = require('whispermud');
 
-const { Channel } = require('ranvier').Channel;
+const { Channel } = require('whispermud').Channel;
 
 module.exports = [
   new Channel({
